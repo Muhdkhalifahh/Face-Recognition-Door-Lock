@@ -1,0 +1,20 @@
+# === Libraries Used in Face Recognition Door Lock Project ===
+# Platform: Arduino IDE
+# Board Package: ESP32 by Espressif Systems (version 1.0.4)
+# Microcontroller: ESP32-CAM (AI Thinker module)
+
+WiFi.h                 - Built-in with ESP32 core
+FS.h                   - Built-in (SPI Flash File System)
+SPIFFS.h               - Built-in (File handling in ESP32)
+esp_camera.h           - Built-in (ESP32-CAM driver)
+esp_http_server.h      - Built-in (HTTP web server for camera stream)
+ArduinoJson.h          - For JSON handling (installed via Library Manager)
+UniversalTelegramBot.h - For Telegram Bot API communication (installed via Library Manager)
+WiFiClientSecure.h     - Built-in (for HTTPS communication)
+soc/soc.h              - Built-in (low-level system access)
+soc/rtc_cntl_reg.h     - Built-in (disable brownout detector)
+EEPROM.h               - Built-in (for small persistent storage)
+esp_timer.h            - Built-in (used for timing operations)
+img_converters.h       - Built-in (used in camera stream conversion)
+fb_gfx.h               - Built-in (frame buffer graphics helper)
+dl_lib.h               - Built-in (used internally by face detection model)
